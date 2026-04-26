@@ -1,0 +1,15 @@
+[package]
+name = "brdd-macros"
+version = "0.2.0"
+edition = "2024"
+description = "Procedural macros for Business Rule Driven Design (BRDD)."
+license = "MIT"
+repository = "https://github.com/brdd-design/brdd-rust"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"

@@ -1,0 +1,1 @@
+/home/leo-def/projects/lab/brdd/modules/core/repositories/brdd-rust/brdd-macros/target/debug/libbrdd_macros.so: /home/leo-def/projects/lab/brdd/modules/core/repositories/brdd-rust/brdd-macros/target/package/brdd-macros-0.2.0/src/lib.rs

@@ -1,0 +1,17 @@
+[package]
+name = "brdd-rust"
+version = "0.2.0"
+edition = "2024"
+description = "Business Rule Driven Design (BRDD) core components for Rust."
+authors = ["Defol Tech <defoltech@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/brdd-design/brdd-rust"
+documentation = "https://docs.rs/brdd-rust"
+readme = "README.md"
+keywords = ["brdd", "architecture", "ddd", "business-rules", "pattern"]
+categories = ["development-tools", "rust-patterns"]
+homepage = "https://brdd-design.github.io"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+brdd-macros = { version = "0.2.0", path = "brdd-macros" }
